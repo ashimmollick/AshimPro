@@ -5,7 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-     screens: {
+    screens: {
       sm: "350px",
       md: "768px",
       lg: "1024px",
@@ -13,15 +13,13 @@ export default {
       "2xl": "1536px",
     },
     extend: {
-       boxShadow: {
+      boxShadow: {
         cyanShadow: "0px 0px 20px 0px rgba(94, 206, 220, 0.5)",
-        cyanBigShadow: "10px 10px 1000px 500px rgba(94, 206, 220, 0.3)",
-        cyanMediumShadow: "10px 10px 200px 150px rgba(94, 206, 220, 0.5)",
-        orangeBigShadow: "10px 10px 10000px 500px rgba(240, 169, 79, 0.3)",
-        orangeMediumShadow: "10px 10px 2000px 150px rgba(240, 169, 79, 0.5)",
+        cyanMediumShadow: "10px 10px 200px 150px rgba(94, 286, 220, 0.5)",
+        orangeMediumShadow: "10px 10px 200px 150px rgba(248, 169, 79, 0.5)",
       },
     },
-    colors:{
+    colors: {
       brown: "#53423e",
       lightBrown: "#645550",
       darkBrown: "#2c2523",
@@ -37,9 +35,9 @@ export default {
       lightGrey: "#978580",
       darkGrey: "#3f4441",
     },
-    fontFamily:{
-      body:["Josefin Sans"],
-      special:["Roboto"]
+    fontFamily: {
+      body: ["Josefin Sans"],
+      special: ["Roboto"]
 
     },
   },

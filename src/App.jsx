@@ -1,6 +1,7 @@
-import "./App.css";
+
 import HeroGradient from "./Components/heroSections/HeroGradient";
 import HeroMain from "./Components/heroSections/HeroMain";
+import SubHeroSections from "./Components/heroSections/SubHeroSections";
 import NavbarMain from "./Components/navbar/NavbarMain";
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
       <NavbarMain />
       <HeroMain />
       <HeroGradient/>
+      <SubHeroSections/>
+      
     </main>
   );
 }
