@@ -1,8 +1,11 @@
 import "./App.css";
+import NavbarMain from "./Components/navbar/NavbarMain";
 
 function App() {
   return (
-    <main></main>
+    <main className="font-body">
+      <NavbarMain />
+    </main>
   );
 }
 
