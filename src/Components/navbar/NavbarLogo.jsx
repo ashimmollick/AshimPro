@@ -4,9 +4,9 @@
         return (
             <div>
                 <h1 className='text-white text-2xl sm:hidden md:block'>
-                    Ashim Mollick
+                    Ashim Pro
                 </h1>
-                <h1 className='text-white font-special font-extrabold text-4xl sm:block md:hidden'>AM</h1>
+                <h1 className='text-white font-special font-extrabold text-4xl sm:block md:hidden'>AP</h1>
             </div>
         );
     };

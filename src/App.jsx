@@ -1,4 +1,5 @@
 import AboutMeMain from "./Components/AboutMeSection/AboutMeMain";
+import ExperienceMain from "./Components/ExperienceSection/ExperienceMain";
 import HealperSection from "./Components/HealperSection";
 import HeroGradient from "./Components/heroSections/HeroGradient";
 import HeroMain from "./Components/heroSections/HeroMain";
@@ -17,6 +18,7 @@ function App() {
       <AboutMeMain />
       <SkillsMain />
       <SubSkills/>
+      <ExperienceMain/>
       <HealperSection />
     </main>
   );
